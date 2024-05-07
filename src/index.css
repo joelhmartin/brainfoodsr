@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: poppins;
+  src: url(/Fonts/Poppins/Poppins-Light.ttf);
+}
+@font-face {
+  font-family: poppins-bold;
+  src: url(/Fonts/Poppins/Poppins-Bold.ttf);
+}
+
+html {
+  background-color: #FDB0C0;
+  font-family: poppins;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-family: poppins-bold;
+}
+
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.transform-style-preserv3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
